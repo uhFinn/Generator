@@ -223,7 +223,7 @@ if(!slow[message.guild.id]){
     if(!serverban[message.guild.id]) {
       serverban[message.guild.id] = {
           list: []      
-      };
+      }; 
   }
   fs.writeFile("./serverban.json", JSON.stringify(serverban), (err) => {
       if (err) console.log(err)
