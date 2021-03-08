@@ -1,0 +1,19 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "An example application - make sure to configure this yourself.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pebblehost",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "ms": "^2.1.2",
+    "fs": "^0.0.2",
+    "express": "^5.0.0-alpha.8",
+    "dblapi.js": "^2.4.0"
+  },
+  "nodeVersion": "12.16.3"
+}
